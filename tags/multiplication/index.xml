@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Multiplication on </title>
-    <link>//localhost:1313/tags/multiplication/</link>
+    <link>/tags/multiplication/</link>
     <description>Recent content in Multiplication on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</managingEditor>
     <webMaster>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</webMaster>
     <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/multiplication/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/multiplication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Divide and conquer!</title>
-      <link>//localhost:1313/challenges/multiplication-complexity/</link>
+      <link>/challenges/multiplication-complexity/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
-      <guid>//localhost:1313/challenges/multiplication-complexity/</guid>
+      <guid>/challenges/multiplication-complexity/</guid>
       <description>&lt;h2 id=&#34;multiplication-algorithms&#34;&gt;Multiplication algorithms&lt;/h2&gt;&#xA;&lt;h3 id=&#34;time-complexity&#34;&gt;Time complexity&lt;/h3&gt;&#xA;&lt;p&gt;The time complexity describes the amount of computer time it takes to run an algorithm. It is estimated by counting the number of elementary operations performed by the algorithm. Since an algorithm&amp;rsquo;s running time may vary among different inputs of the same size, one commonly considers the worst-case time. Algorithmic complexities are classified according to the type of function appearing in the big O notation. Here are some examples:&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,90 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/algorithms/</loc>
+    <loc>/categories/algorithms/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/attacks/</loc>
+    <loc>/categories/attacks/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/challenges/signature-failure/</loc>
+    <loc>/challenges/signature-failure/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/challenges/</loc>
+    <loc>/challenges/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/index/</loc>
+    <loc>/tags/index/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/number-theory/</loc>
+    <loc>/categories/number-theory/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/prime-numbers/</loc>
+    <loc>/tags/prime-numbers/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/probability/</loc>
+    <loc>/tags/probability/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/random/</loc>
+    <loc>/tags/random/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/real-world/</loc>
+    <loc>/categories/real-world/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/signature/</loc>
+    <loc>/tags/signature/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/challenges/primality-testing/</loc>
+    <loc>/challenges/primality-testing/</loc>
     <lastmod>2025-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/algorithmic/</loc>
+    <loc>/tags/algorithmic/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/complexity-theory/</loc>
+    <loc>/categories/complexity-theory/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/challenges/multiplication-complexity/</loc>
+    <loc>/challenges/multiplication-complexity/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/finite-fields/</loc>
+    <loc>/tags/finite-fields/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/multiplication/</loc>
+    <loc>/tags/multiplication/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/challenges/scalar-multiplication-complexity/</loc>
+    <loc>/challenges/scalar-multiplication-complexity/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/scalar-multiplication/</loc>
+    <loc>/tags/scalar-multiplication/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/coding/</loc>
+    <loc>/categories/coding/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/image-processing/</loc>
+    <loc>/categories/image-processing/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/challenges/steganography/</loc>
+    <loc>/challenges/steganography/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/steganography/</loc>
+    <loc>/tags/steganography/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/cryptography/</loc>
+    <loc>/tags/cryptography/</loc>
   </url><url>
-    <loc>//localhost:1313/keynote/</loc>
+    <loc>/keynote/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/um6p/</loc>
+    <loc>/tags/um6p/</loc>
   </url>
 </urlset>

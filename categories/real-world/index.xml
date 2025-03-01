@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Real-World on </title>
-    <link>//localhost:1313/categories/real-world/</link>
+    <link>/categories/real-world/</link>
     <description>Recent content in Real-World on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</managingEditor>
     <webMaster>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</webMaster>
     <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/real-world/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/real-world/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Careful with randomness!</title>
-      <link>//localhost:1313/challenges/signature-failure/</link>
+      <link>/challenges/signature-failure/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
-      <guid>//localhost:1313/challenges/signature-failure/</guid>
+      <guid>/challenges/signature-failure/</guid>
       <description>&lt;h2 id=&#34;signature-schemes&#34;&gt;Signature schemes&lt;/h2&gt;&#xA;&lt;p&gt;Let &lt;code&gt;𝒢&lt;/code&gt; be a commutative group under the addition law (&lt;code&gt;+&lt;/code&gt;) and let &lt;code&gt;G ∊ 𝒢&lt;/code&gt;.&#xA;The group has an order &lt;code&gt;p&lt;/code&gt;. We define a scalar multiplication &lt;code&gt;k*G&lt;/code&gt; as&#xA;&lt;code&gt;G+...+G&lt;/code&gt;, &lt;code&gt;k&lt;/code&gt; times. Now assume that given an element &lt;code&gt;Q ∊ 𝒢&lt;/code&gt; it is&#xA;computationally unfeasible to find &lt;code&gt;k&lt;/code&gt; such that &lt;code&gt;Q = k*G&lt;/code&gt;. We have seen in a&#xA;different challenge that it is easy to go from &lt;code&gt;G&lt;/code&gt; to &lt;code&gt;k*G&lt;/code&gt; but now we are&#xA;assuming that it is hard to go from &lt;code&gt;k*G&lt;/code&gt; to &lt;code&gt;G&lt;/code&gt;. This is called a one-way&#xA;function. In this challenge, we will build a signature scheme based on this&#xA;function.&lt;/p&gt;</description>
     </item>
   </channel>

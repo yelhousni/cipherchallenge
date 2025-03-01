@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Index on </title>
-    <link>//localhost:1313/tags/index/</link>
+    <link>/tags/index/</link>
     <description>Recent content in Index on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</managingEditor>
     <webMaster>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</webMaster>
     <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Challenges</title>
-      <link>//localhost:1313/challenges/</link>
+      <link>/challenges/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
-      <guid>//localhost:1313/challenges/</guid>
+      <guid>/challenges/</guid>
       <description></description>
     </item>
   </channel>

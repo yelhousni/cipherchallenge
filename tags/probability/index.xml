@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Probability on </title>
-    <link>//localhost:1313/tags/probability/</link>
+    <link>/tags/probability/</link>
     <description>Recent content in Probability on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</managingEditor>
     <webMaster>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</webMaster>
     <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/probability/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/probability/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Witness or liar?</title>
-      <link>//localhost:1313/challenges/primality-testing/</link>
+      <link>/challenges/primality-testing/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
-      <guid>//localhost:1313/challenges/primality-testing/</guid>
+      <guid>/challenges/primality-testing/</guid>
       <description>&lt;h2 id=&#34;primality-testing&#34;&gt;Primality testing&lt;/h2&gt;&#xA;&lt;h3 id=&#34;naive-but-deterministic&#34;&gt;Naive but deterministic&lt;/h3&gt;&#xA;&lt;p&gt;Primes are of great theoretical and practical value in cryptography. A&#xA;primality test is an algorithm for determining whether an input number is&#xA;prime. The simplest primality test is trial division: given an input number,&#xA;&lt;code&gt;n&lt;/code&gt;, check whether it is divisible by any prime number between 2 and &lt;code&gt;√n&lt;/code&gt;. If&#xA;so, then &lt;code&gt;n&lt;/code&gt; is composite. Otherwise, it is prime.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The prime number theorem: the distribution of primes is π(n) ~ n/ln(n)&#xA;where π(n) is the prime-counting function (the number of primes less than or&#xA;equal to n) and ln(n) is the natural logarithm of n.&lt;/p&gt;</description>
     </item>
   </channel>
