@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Processing on </title>
+    <link>//localhost:1313/categories/image-processing/</link>
+    <description>Recent content in Image Processing on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</webMaster>
+    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/image-processing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sometimes answers are hidden in plain sight!</title>
+      <link>//localhost:1313/challenges/steganography/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>//localhost:1313/challenges/steganography/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Answers to all the challenges are hidden in the corresponding images. If you revese-engineer the code &lt;a href=&#34;&#34;&gt;here&lt;/a&gt; you&amp;rsquo;ll find them!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;em&gt;Hint: space is full of pixels and a pixel does not need all the bits!&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

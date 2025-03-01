@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>
+Careful with randomness! | Cipher Challenge Cryptography Edition
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<link rel="canonical" href="//localhost:1313/challenges/signature-failure/" >
+
+
+
+
+<link href="/css/style.min.5c1fa9bba2d0e854fe30b3d6316ab0114a2a5f25c9a98275badeadb66f2ec725.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a class="terminal" href="//localhost:1313/">
+                <span>cipherchallenge@um6p.ma ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="//localhost:1313/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="//localhost:1313/keynote" title="" >
+                        ~/keynote</a>
+                </li>
+                
+                <li>
+                    <a href="//localhost:1313/challenges" title="" >
+                        ~/challenges</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>Careful with randomness!</h1>
+    
+    
+    <section class="postMetadata">
+        <dl>
+            
+                
+<dt>tags</dt>
+<dd><span></span>
+    <a href="/tags/random/">#Random</a><span></span>
+    <a href="/tags/signature/">#Signature</a></dd>
+            
+            
+            
+                
+<dt>categories</dt>
+<dd><span></span>
+    <a href="/categories/attacks/">Attacks</a><span></span>
+    <a href="/categories/real-world/">Real-World</a></dd>
+            
+            
+            
+                <dt>reading time</dt>
+                <dd>2 minutes</dd>
+            
+        </dl>
+    </section>
+    
+    <div>
+        <h2 id="signature-schemes">Signature schemes</h2>
+<p>Let <code>𝒢</code> be a commutative group under the addition law (<code>+</code>) and let <code>G ∊ 𝒢</code>.
+The group has an order <code>p</code>. We define a scalar multiplication <code>k*G</code> as
+<code>G+...+G</code>, <code>k</code> times. Now assume that given an element <code>Q ∊ 𝒢</code> it is
+computationally unfeasible to find <code>k</code> such that <code>Q = k*G</code>. We have seen in a
+different challenge that it is easy to go from <code>G</code> to <code>k*G</code> but now we are
+assuming that it is hard to go from <code>k*G</code> to <code>G</code>. This is called a one-way
+function. In this challenge, we will build a signature scheme based on this
+function.</p>
+<p>Let Mustapha be the signer. He holds a secret signing key <code>k</code> and publishes a
+public key <code>Q=k*G</code>. To sign a message <code>m</code>, he computes <code>s = k * m (mod p)</code> and sends <code>(m,s)</code>.</p>
+<ol>
+<li>How can you verify this signature <code>(m,s)</code> knowing just Mustapha&rsquo;s public key <code>Q</code>?</li>
+<li>How would you proceed to recover Mustapha&rsquo;s secret key <code>k</code>?</li>
+</ol>
+<p>Now Mustapha chooses a random number <code>0 &lt; r &lt; p</code> and computes <code>R=r*G</code>. Then he computes <code>s = r + k * m (mod p)</code> and sends <code>(m,s)</code> alongside <code>R</code>.</p>
+<ol start="3">
+<li>How can you verify the signature now?</li>
+<li>Can you recover Mustapha&rsquo;s secret key now?</li>
+</ol>
+<p>Now Mustapha signs a different message <code>m'</code> with the same random <code>r</code>. The signature is <code>(m',s')</code> and <code>R</code>.</p>
+<ol start="5">
+<li>Can you recover Mustapha&rsquo;s secret key now? What if Mustapha uses a different random <code>r'</code>?</li>
+</ol>
+<p><img src="https://hackmd.io/_uploads/HyWN5JWs1e.jpg" alt="image"></p>
+
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>Ⓒ 2025 — Youssef El Housni</span>
+    
+</footer>
+    </div>
+
+</body>
+
+</html>

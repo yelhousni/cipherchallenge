@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>
+Divide and conquer! | Cipher Challenge Cryptography Edition
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How complex is multiplication?">
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<link rel="canonical" href="//localhost:1313/challenges/multiplication-complexity/" >
+
+
+
+
+<link href="/css/style.min.5c1fa9bba2d0e854fe30b3d6316ab0114a2a5f25c9a98275badeadb66f2ec725.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a class="terminal" href="//localhost:1313/">
+                <span>cipherchallenge@um6p.ma ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="//localhost:1313/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="//localhost:1313/keynote" title="" >
+                        ~/keynote</a>
+                </li>
+                
+                <li>
+                    <a href="//localhost:1313/challenges" title="" >
+                        ~/challenges</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>Divide and conquer!</h1>
+    
+    	<p>How complex is multiplication?</p>
+    
+    
+    <section class="postMetadata">
+        <dl>
+            
+                
+<dt>tags</dt>
+<dd><span></span>
+    <a href="/tags/multiplication/">#Multiplication</a><span></span>
+    <a href="/tags/finite-fields/">#Finite Fields</a></dd>
+            
+            
+            
+                
+<dt>categories</dt>
+<dd><span></span>
+    <a href="/categories/algorithms/">Algorithms</a><span></span>
+    <a href="/categories/complexity-theory/">Complexity Theory</a></dd>
+            
+            
+            
+                <dt>reading time</dt>
+                <dd>2 minutes</dd>
+            
+        </dl>
+    </section>
+    
+    <div>
+        <h2 id="multiplication-algorithms">Multiplication algorithms</h2>
+<h3 id="time-complexity">Time complexity</h3>
+<p>The time complexity describes the amount of computer time it takes to run an algorithm. It is estimated by counting the number of elementary operations performed by the algorithm. Since an algorithm&rsquo;s running time may vary among different inputs of the same size, one commonly considers the worst-case time. Algorithmic complexities are classified according to the type of function appearing in the big O notation. Here are some examples:</p>
+<table>
+  <thead>
+      <tr>
+          <th><em>Name</em></th>
+          <th><em>Time complexity</em></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Constant time</td>
+          <td><code>O(1)      </code></td>
+      </tr>
+      <tr>
+          <td>Logarithmic time</td>
+          <td><code>O(log n)  </code></td>
+      </tr>
+      <tr>
+          <td>Linear time</td>
+          <td><code>O(n)      </code></td>
+      </tr>
+      <tr>
+          <td>Linearithmic time</td>
+          <td><code>O(n log n)</code></td>
+      </tr>
+      <tr>
+          <td>Quadratic time</td>
+          <td><code>O(n^2)    </code></td>
+      </tr>
+      <tr>
+          <td>Polynomial time</td>
+          <td><code>poly(n)   </code></td>
+      </tr>
+      <tr>
+          <td>Exponential time</td>
+          <td><code>2^poly(n) </code></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="schoolbook-multiplication">Schoolbook multiplication</h3>
+<p>Consider this example <code>102 * 257</code>:</p>
+<p><img src="https://hackmd.io/_uploads/ryKWkKJs1l.png" alt="image"></p>
+<ol>
+<li>
+<p>Without worrying about additions, how many digit multiplications we need?</p>
+</li>
+<li>
+<p>Suppose we have two n-digit numbers and wish to multiply them. What is the (worst-case) time complexity of this operation?</p>
+</li>
+</ol>
+<h2 id="divide-and-conquer-multiplication">Divide-and-conquer multiplication</h2>
+<p>Can we do any better?</p>
+<h4 id="2-digit-numbers">2-digit numbers</h4>
+<p>Consider two 2-digit numbers <code>X</code> and <code>Y</code>. Their base-10 representation is <code>X = 10x1 + x0</code> and <code>Y = 10y1 + y0</code>. Their product is <code>X * Y = (10x1 + x0)(10y1 + y0) = 100x1y1 + 10(x1y0+x0y1) + x0y0</code>.</p>
+<ol start="3">
+<li>How many multiplications this product involves?</li>
+<li>Can you re-write the middle term <code>x1y0 + x0y1</code> to re-use <code>x0y0</code> and <code>x1y1</code>? How many multiplications the product involves now?</li>
+</ol>
+<h3 id="4-digit-numbers">4-digit numbers</h3>
+<p>Now consider two 4-digit numbers <code>X</code> anx <code>Y</code>. We can write them as <code>X = 100x1 + x0</code> and <code>Y = 100y1 + y0</code>.</p>
+<ol start="5">
+<li>Can you re-do the same optimization as for 2-digits?</li>
+<li>Multiply 2345 and 6789 following this optimization.</li>
+</ol>
+<h4 id="n-digit-numbers">n-digit numbers</h4>
+<p>In general we can write two n-digit number as <code>X = 10^{n/2}x0 + x1</code> and <code>Y = 10^{n/2}y0 + y1</code>.</p>
+<ol start="7">
+<li>Can you derive an algorithm than involves less digit multiplications than the schoolbook method?</li>
+<li>What is the time complexity of your algorithm?</li>
+</ol>
+<p><img src="https://hackmd.io/_uploads/By5X0oyi1e.jpg" alt="File"></p>
+
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>Ⓒ 2025 — Youssef El Housni</span>
+    
+</footer>
+    </div>
+
+</body>
+
+</html>

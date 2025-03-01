@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithmic on </title>
+    <link>//localhost:1313/tags/algorithmic/</link>
+    <description>Recent content in Algorithmic on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</webMaster>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/algorithmic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One step at a time!</title>
+      <link>//localhost:1313/challenges/scalar-multiplication-complexity/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>//localhost:1313/challenges/scalar-multiplication-complexity/</guid>
+      <description>&lt;h2 id=&#34;scalar-multiplication&#34;&gt;Scalar multiplication&lt;/h2&gt;&#xA;&lt;p&gt;Let &lt;code&gt;𝒢&lt;/code&gt; be a commutative group under the addition law (&lt;code&gt;+&lt;/code&gt;) and let &lt;code&gt;G ∊ 𝒢&lt;/code&gt;. We define a scalar multiplication &lt;code&gt;k*G&lt;/code&gt; as &lt;code&gt;G+...+G&lt;/code&gt;, &lt;code&gt;k&lt;/code&gt; times.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Consider &lt;code&gt;105*G&lt;/code&gt;. How many additions does it involve?&lt;/li&gt;&#xA;&lt;li&gt;Now consider the binary decomposition of &lt;code&gt;105 = 2^6 + 2^5 + 2^3 + 2^0&lt;/code&gt;. It can be written as &lt;code&gt;105 = ((((((((((1 · 2 + 1) · 2) + 0) · 2) + 1) · 2) + 0) · 2) + 0) · 2) + 1&lt;/code&gt;. Given that a doubling (multiplication by 2) has the same cost as an addition, how many additions &lt;code&gt;105*G&lt;/code&gt; involves?&lt;/li&gt;&#xA;&lt;li&gt;What is the complexity of the naive algorithm?&lt;/li&gt;&#xA;&lt;li&gt;Let &lt;code&gt;n&lt;/code&gt; be the number of bits in &lt;code&gt;k&lt;/code&gt;. We can write &lt;code&gt;k = k_0 + 2 k_1 + 2^2 k_2 + ... + 2^{n-1} k_{n-1}&lt;/code&gt; where &lt;code&gt;k_i ∊ {0,1}&lt;/code&gt;. Can you derive an algorithm for computing &lt;code&gt;k*G&lt;/code&gt; in less than &lt;code&gt;k-1&lt;/code&gt; additions?&lt;/li&gt;&#xA;&lt;li&gt;Assuming that on average half of the &lt;code&gt;k_i&lt;/code&gt;&amp;rsquo;s are 1, how many additions do you need? What is the complexity of your algorithm?&lt;/li&gt;&#xA;&lt;li&gt;We want now to compute &lt;code&gt;k*G1 + k&#39;*G2&lt;/code&gt;. The obvious solution would be to compute &lt;code&gt;k*G1&lt;/code&gt; and &lt;code&gt;k&#39;*G2&lt;/code&gt; separately and add them. Can you do better? &lt;em&gt;Hint: start an accumulator with &lt;code&gt;G1+G2&lt;/code&gt; and scan &lt;code&gt;k&lt;/code&gt; and &lt;code&gt;k&#39;&lt;/code&gt; bits simultaenously&lt;/em&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/S1QPnhkjyg.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>
+Algorithmic | Cipher Challenge Cryptography Edition
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<link rel="canonical" href="//localhost:1313/tags/algorithmic/" >
+  <link href="//localhost:1313/tags/algorithmic/index.xml" rel="alternate" type="application/rss+xml" title="" >
+  <link href="//localhost:1313/tags/algorithmic/index.xml" rel="feed" type="application/rss+xml" title="" >
+
+
+
+
+<link href="/css/style.min.5c1fa9bba2d0e854fe30b3d6316ab0114a2a5f25c9a98275badeadb66f2ec725.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a class="terminal" href="//localhost:1313/">
+                <span>cipherchallenge@um6p.ma ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="//localhost:1313/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="//localhost:1313/keynote" title="" >
+                        ~/keynote</a>
+                </li>
+                
+                <li>
+                    <a href="//localhost:1313/challenges" title="" >
+                        ~/challenges</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+
+<div>
+    <div class="listHeader">
+        <h1>Algorithmic</h1>
+    </div>
+
+    
+
+    <div>
+        
+
+        <a class="postListLink" href="//localhost:1313/challenges/scalar-multiplication-complexity/">
+            
+            <div class="postListItem" role="listitem">
+                <div class="postHeader">
+                    <span class="postTitle">One step at a time!</span>
+                    
+                    <time class="postDate" datetime="2025-02-28">February 28, 2025</time>
+                </div>
+                <div class="postExcerpt">
+                    <p><h2 id="scalar-multiplication">Scalar multiplication</h2>
+<p>Let <code>𝒢</code> be a commutative group under the addition law (<code>+</code>) and let <code>G ∊ 𝒢</code>. We define a scalar multiplication <code>k*G</code> as <code>G+...+G</code>, <code>k</code> times.</p>
+<ol>
+<li>Consider <code>105*G</code>. How many additions does it involve?</li>
+<li>Now consider the binary decomposition of <code>105 = 2^6 + 2^5 + 2^3 + 2^0</code>. It can be written as <code>105 = ((((((((((1 · 2 + 1) · 2) + 0) · 2) + 1) · 2) + 0) · 2) + 0) · 2) + 1</code>. Given that a doubling (multiplication by 2) has the same cost as an addition, how many additions <code>105*G</code> involves?</li>
+<li>What is the complexity of the naive algorithm?</li>
+<li>Let <code>n</code> be the number of bits in <code>k</code>. We can write <code>k = k_0 + 2 k_1 + 2^2 k_2 + ... + 2^{n-1} k_{n-1}</code> where <code>k_i ∊ {0,1}</code>. Can you derive an algorithm for computing <code>k*G</code> in less than <code>k-1</code> additions?</li>
+<li>Assuming that on average half of the <code>k_i</code>&rsquo;s are 1, how many additions do you need? What is the complexity of your algorithm?</li>
+<li>We want now to compute <code>k*G1 + k'*G2</code>. The obvious solution would be to compute <code>k*G1</code> and <code>k'*G2</code> separately and add them. Can you do better? <em>Hint: start an accumulator with <code>G1+G2</code> and scan <code>k</code> and <code>k'</code> bits simultaenously</em>.</li>
+</ol>
+<p><img src="https://hackmd.io/_uploads/S1QPnhkjyg.jpg" alt="image"></p></p>
+                </div>
+            </div>
+        </a>
+
+
+        
+    </div>
+</div>
+
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>Ⓒ 2025 — Youssef El Housni</span>
+    
+</footer>
+    </div>
+
+</body>
+
+</html>

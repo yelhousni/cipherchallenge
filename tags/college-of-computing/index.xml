@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>College of Computing on </title>
+    <link>//localhost:1313/tags/college-of-computing/</link>
+    <description>Recent content in College of Computing on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</webMaster>
+    <atom:link href="//localhost:1313/tags/college-of-computing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;cipher-challenge-2025---cryptography-edition&#34;&gt;Cipher Challenge 2025 - Cryptography Edition&lt;/h2&gt;&#xA;&lt;p&gt;The UM6P College of Computing is pleased to invite students from across Morocco to take part in the Cipher Challenge 2025, a competition designed to test and celebrate cryptographic skills. Hosted on the UM6P Rabat campus, this event brings together the brightest minds to engage in an exciting intellectual challenge, with prizes rewarding outstanding performances.&lt;/p&gt;&#xA;&lt;h3 id=&#34;event-details&#34;&gt;EVENT DETAILS&lt;/h3&gt;&#xA;&lt;p&gt;Date: Saturday, April 12, and Sunday, April 13, 2025&#xA;Location: UM6P College of Computing – Rabat Campus&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

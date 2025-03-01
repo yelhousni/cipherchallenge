@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on </title>
+    <link>//localhost:1313/categories/</link>
+    <description>Recent content in Categories on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</managingEditor>
+    <webMaster>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</webMaster>
+    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithms</title>
+      <link>//localhost:1313/categories/algorithms/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>//localhost:1313/categories/algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Attacks</title>
+      <link>//localhost:1313/categories/attacks/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>//localhost:1313/categories/attacks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Number Theory</title>
+      <link>//localhost:1313/categories/number-theory/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>//localhost:1313/categories/number-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Real-World</title>
+      <link>//localhost:1313/categories/real-world/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>//localhost:1313/categories/real-world/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complexity Theory</title>
+      <link>//localhost:1313/categories/complexity-theory/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>//localhost:1313/categories/complexity-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>//localhost:1313/categories/coding/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>//localhost:1313/categories/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Image Processing</title>
+      <link>//localhost:1313/categories/image-processing/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate><author>cipherchallenge@um6p.ma (Cipher Challenge Cryptography Edition)</author>
+      <guid>//localhost:1313/categories/image-processing/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

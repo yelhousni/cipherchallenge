@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>
+Witness or liar? | Cipher Challenge Cryptography Edition
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Are you a prime?">
+
+<meta name="generator" content="Hugo 0.144.2">
+
+
+<link rel="canonical" href="//localhost:1313/challenges/primality-testing/" >
+
+
+
+
+<link href="/css/style.min.5c1fa9bba2d0e854fe30b3d6316ab0114a2a5f25c9a98275badeadb66f2ec725.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a class="terminal" href="//localhost:1313/">
+                <span>cipherchallenge@um6p.ma ~ $</span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="//localhost:1313/about" title="" >
+                        ~/about</a>
+                </li>
+                
+                <li>
+                    <a href="//localhost:1313/keynote" title="" >
+                        ~/keynote</a>
+                </li>
+                
+                <li>
+                    <a href="//localhost:1313/challenges" title="" >
+                        ~/challenges</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>Witness or liar?</h1>
+    
+    	<p>Are you a prime?</p>
+    
+    
+    <section class="postMetadata">
+        <dl>
+            
+                
+<dt>tags</dt>
+<dd><span></span>
+    <a href="/tags/prime-numbers/">#Prime Numbers</a><span></span>
+    <a href="/tags/probability/">#Probability</a></dd>
+            
+            
+            
+                
+<dt>categories</dt>
+<dd><span></span>
+    <a href="/categories/algorithms/">Algorithms</a><span></span>
+    <a href="/categories/number-theory/">Number Theory</a></dd>
+            
+            
+            
+                <dt>reading time</dt>
+                <dd>2 minutes</dd>
+            
+        </dl>
+    </section>
+    
+    <div>
+        <h2 id="primality-testing">Primality testing</h2>
+<h3 id="naive-but-deterministic">Naive but deterministic</h3>
+<p>Primes are of great theoretical and practical value in cryptography. A
+primality test is an algorithm for determining whether an input number is
+prime. The simplest primality test is trial division: given an input number,
+<code>n</code>, check whether it is divisible by any prime number between 2 and <code>√n</code>. If
+so, then <code>n</code> is composite. Otherwise, it is prime.</p>
+<blockquote>
+<p>The prime number theorem: the distribution of primes is π(n) ~ n/ln(n)
+where π(n) is the prime-counting function (the number of primes less than or
+equal to n) and ln(n) is the natural logarithm of n.</p></blockquote>
+<ol>
+<li>By the prime number theorem, how many trial divisions one needs to perform?</li>
+</ol>
+<h3 id="fast-but-probabilistic">Fast but probabilistic</h3>
+<p>The basic structure of probabilistic primality tests is as follows:</p>
+<ul>
+<li>Randomly pick a number <code>a</code>.</li>
+<li>Check some equality involving <code>a</code> and the given number <code>n</code>. If the equality fails to hold true, then <code>n</code> is a composite number and <code>a</code> is a witness for the compositeness, and the test stops.</li>
+<li>Get back to the step one until the required accuracy is reached.</li>
+</ul>
+<p>After one or more iterations, if <code>n</code> is not found to be a composite number, then it can be declared probably prime.</p>
+<p>The simplest probabilistic test is based on Fermat&rsquo;s little theorem.</p>
+<blockquote>
+<p>Fermat&rsquo;s little theorem states that if <code>n</code> is prime and <code>a</code> is not
+divisible by <code>n</code>, then <code>a^{n-1} = 1 (mod n)</code></p></blockquote>
+<p>Given an integer <code>n</code>, choose some integer <code>a</code> coprime to <code>n</code> and calculate
+<code>a^{n-1} mod n</code>. If the result is different from 1, then <code>n</code> is composite. If
+it is 1, then <code>n</code> may be prime.</p>
+<ol start="2">
+<li>Given that the time complexity of modular exponentiation is roughly <code>O(log^2 n)</code>, what is the complexity of this algorithm?</li>
+<li>Apply this algorithm iteratively 3 times to determine if 17 is prime.</li>
+<li>Now consider <code>n=221</code>. Apply the algorithm with <code>a=38</code>. Is <code>n</code> probably a prime? Now use <code>a=24</code>. What do you conclude?</li>
+<li>Now consider <code>n=561</code>. Apply the algorithm with any witness <code>a</code> you want. What do you conclude?</li>
+</ol>
+<p><img src="https://hackmd.io/_uploads/rkv91kWske.jpg" alt="image"></p>
+
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>Ⓒ 2025 — Youssef El Housni</span>
+    
+</footer>
+    </div>
+
+</body>
+
+</html>
